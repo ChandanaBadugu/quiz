@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+    <center>
+        <h1>answer all 5</h1>
+    </center>
+    <form id="quiz" name="quiz">
+
+        <p>Q1.what is 1+1?</p><br>
+        <input type="radio"  name="question1" value="one">one <br>
+        <input type="radio"  name="question1" value="two">two<br>
+
+
+
+
+        <p>Q2.colour of sky?</p><br>
+        <input type="radio"  name="question2" value="blue">blue <br>
+        <input type="radio" name="question2" value="green">green<br>
+
+
+        <p>Q3.Rock is </p><br>
+        <input type="radio"  name="question3" value="liquid">liquid <br>
+        <input type="radio" name="question3" value="solid">solid<br>
+
+
+        <p>Q4.Ironman is which superhero?</p><br>
+        <input type="radio"  name="question4" value="marvel">marvel <br>
+        <input type="radio" name="question4" value="dc">dc<br>
+
+
+        <p>Q5.Is google company?</p><br>
+        <input type="radio"  name="question5" value="yes">yes<br>
+        <input type="radio" name="question5" value="no">no<br>
+
+
+
+
+
+
+
+        <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+    </form>
+
+
+
+
+    <div id = "after_submit">
+
+        <p id = "number_correct"></p>
+        <p id = "message"></p>
+        
+    </div>
+
+
+
+    <script src="index.js"> </script>
+</body>
+</html>
